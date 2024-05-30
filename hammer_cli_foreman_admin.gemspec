@@ -21,4 +21,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency 'hammer_cli'
+
+  s.required_ruby_version = '>= 2.7', '< 4'
 end
